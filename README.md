@@ -524,6 +524,9 @@ RMSE
 R² Score
 The best model is selected according to the reported evaluation results.
 
+<img width="1000" height="620" alt="image" src="https://github.com/user-attachments/assets/91994512-fd60-4574-8bd1-49d5f10bd090" />
+
+
 💼 Business Interpretation
 The Smart Outcome Predictor can help identify students who may need additional academic support.
 
