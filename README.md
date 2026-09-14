@@ -179,6 +179,9 @@ Categorical missing values are also handled.
 Step 5 --- Categorical Encoding
 Categorical variables are converted into numerical representation using:
 
+<img width="849" height="575" alt="Screenshot 2026-09-10 024545" src="https://github.com/user-attachments/assets/2e796e54-f14d-424a-b629-3b1511cccf23" />
+
+
 OneHotEncoder
 pandas dummy encoding
 Step 6 --- Feature Scaling
@@ -215,6 +218,9 @@ Combine Predictions
       ↓
 Better / More Robust Prediction
 This project compares several ensemble techniques.
+
+<img width="1194" height="595" alt="Screenshot 2026-09-10 024908" src="https://github.com/user-attachments/assets/9aa112bd-123a-4a06-a8a1-8b7dd01041cf" />
+
 
 👜 Bagging
 Bagging = Bootstrap Aggregating
@@ -256,6 +262,9 @@ Model 3 improves further
 Final Combined Model
 The project uses:
 
+<img width="1196" height="597" alt="Screenshot 2026-09-10 024627" src="https://github.com/user-attachments/assets/115b2f93-061c-4151-8330-f2a0b1b972ac" />
+
+
 AdaBoost
 Gradient Boosting
 LightGBM
@@ -279,6 +288,9 @@ Final Ensemble
 Reported classification accuracy:
 
 72.88%
+
+<img width="1073" height="594" alt="Screenshot 2026-09-10 024703" src="https://github.com/user-attachments/assets/02c8cad7-ae62-4b12-9d62-c7baae7d91c1" />
+
 
 📈 Gradient Boosting
 Gradient Boosting builds decision trees sequentially.
@@ -313,6 +325,9 @@ Regression:
 MAE: 7.8476
 RMSE: 9.8049
 R²: 0.4855
+
+<img width="1026" height="571" alt="Screenshot 2026-09-10 024505" src="https://github.com/user-attachments/assets/0350e88f-673c-49a2-906c-3d036587470d" />
+
 💡 LightGBM
 LightGBM is a gradient boosting framework designed for efficient tree-based learning.
 
@@ -365,6 +380,9 @@ For this experiment:
 
 Hard Voting performed better than Soft Voting.
 
+<img width="697" height="556" alt="Screenshot 2026-09-10 024414" src="https://github.com/user-attachments/assets/095d0dff-1362-4751-94f8-cfd61628090f" />
+
+
 🧠 Stacking
 Stacking combines multiple base models and uses another model, called a meta-model, to learn how to combine their predictions.
 
@@ -384,6 +402,11 @@ Stacking = 73.56%
 Difference:
 
 0.10 percentage points
+
+<img width="838" height="476" alt="Screenshot 2026-09-10 024740 - Copy" src="https://github.com/user-attachments/assets/245b9e54-4137-40ee-bba1-44f1f0d86594" />
+<img width="838" height="476" alt="Screenshot 2026-09-10 024740" src="https://github.com/user-attachments/assets/2668b359-cc11-4b10-a93f-570621cb0af5" />
+
+
 
 📊 Classification Results
 Model Accuracy Precision Recall F1 Score ROC-AUC
